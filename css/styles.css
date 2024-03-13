@@ -1,0 +1,181 @@
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    margin: 0px;
+    font-size: 18px;
+    z-index: 0;
+}
+
+* {
+    box-sizing: border-box !important;
+    scroll-behavior: smooth !important;
+}
+
+p {
+    margin: 12px 0;
+    line-height: 1.8;
+}
+
+img {
+    display: block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.a-none {
+    text-decoration: none;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.pseudo{
+    height:15%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.font-100 {
+    font-weight: 100;
+}
+
+.font-large {
+    font-size: 32px;
+}
+
+.font-medium {
+    font-size: 22px;
+}
+
+.color-white {
+    color: #e0dcd2;
+}
+
+.color-gray {
+    color: #686868;
+}
+
+.color-dark-gray {
+    color: #303030;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.display-inline-block-60 {
+    display: inline-block;
+    width: 56%;
+    vertical-align: middle;
+}
+
+.display-inline-block-40 {
+    display: inline-block;
+    width: 43%;
+    vertical-align: middle;
+}
+
+.display-inline-block-50 {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
+
+.bg-lightgray {
+    background-color: #f8f8f8;
+}
+
+.bg-light_brown {
+    background-color:#8e7754 ;
+}
+
+.bg-none {
+    background-color: transparent;
+}
+
+.border-none {
+    border: none !important;
+}
+
+.border-transparent {
+    border-color: transparent !important;
+}
+
+.p-y-1 {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.p-y-20 {
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.p-l-0 {
+    padding-left: 0px !important; 
+}
+
+.p-r-0 {
+    padding-right: 0px !important;
+}
+
+.p-y-45 {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.p-y-90 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.m-l-80 {
+    margin-left: 80px;
+}
+
+.m-r-80 {
+    margin-right: 80px;
+}
+
+.m-y-0 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.m-l-0 {
+    margin-left: 0px;
+}
+
+.m-r-0 {
+    margin-right: 0px;
+}
+
+.m-t-20 {
+    margin-top: 42px;
+}
+
+.v-top {
+    vertical-align: top;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}

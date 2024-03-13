@@ -1,0 +1,103 @@
+/* Start Company_Details */
+.company_details {
+    background-color: #403d38;
+    color: #969696;
+}
+
+.company_details .container {
+    margin-top: 0;
+    margin-bottom: o;
+}
+
+.company_details>div>div {
+    float: left;
+    width: 25%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.company_details>div>div:not(:first-child),
+.company_details>div>div p {
+    font-size: 16px;
+}
+
+.company_details ul li {
+    border-bottom: solid 1px #ffffff0d;
+    padding-top: 4px;
+    padding-bottom: 12px;
+}
+
+.company_details ul li .arrow {
+    display: inline-block;
+    vertical-align: middle;
+    width: 6px;
+    height: 6px;
+    border: solid;
+    border-width: 0 2px 2px 0;
+    margin-right: 12px;
+    transform: rotate(-45deg);
+}
+
+.company_details ul li img {
+    width: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.company_details ul li span{
+    display: inline-block;
+    width: calc(100% - 60px);
+}
+
+.company_details ul li span a{
+    text-decoration: none;
+    color: #969696;
+}
+
+.company_details .p-r-0 ul {
+    /* background-image: ("../imgs/contact-details-map.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto; */
+    position: relative;
+}
+
+.company_details .p-r-0 ul>.div-li {
+    position: absolute;
+}
+
+.company_details .p-r-0 ul>.div-img {
+    opacity: 0.1;
+    float: left;
+    margin-top: 50px;
+}
+/* End Company_Details */
+
+/* Start Copyright_SocialMedia */
+.copyright_socialMedia {
+    background-color: #353330;
+}
+/* End Copyright_SocialMedia */
+
+/* Start Copyright_SocialMedia */
+.copyright_socialMedia {
+    text-align: center;
+}
+
+.copyright_socialMedia .container>div {
+    width: 340px;
+    display: inline-block;
+}
+
+.copyright_socialMedia ul li {
+    background-color: #484540;
+    border-radius: 50%;
+    margin: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.copyright_socialMedia ul li img {
+    width: 42px;
+}
+/* End Copyright_SocialMedia */
